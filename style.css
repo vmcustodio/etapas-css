@@ -49,7 +49,7 @@ html {
     z-index: 2;
 }
 .progresso li.active::before{
-    background-color: #2ecc71;
+    background-color: red;
 }
 .progresso li::after{
     transition:all .25s;
@@ -63,7 +63,7 @@ html {
     z-index: 1;
 }
 .progresso li.active:after{
-    border-top-color: #2ecc71;
+    border-top-color: red;
 }
 .progresso li:last-child::after{
     border-top: none;
